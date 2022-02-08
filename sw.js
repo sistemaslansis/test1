@@ -58,6 +58,6 @@ self.addEventListener('fetch', e => {
         }
         //recuperar de la petición a la url
         return fetch(e.request)
-      })
+      }) 
   )
 })
